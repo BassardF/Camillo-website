@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Thin;
+    src: url(../fonts/Raleway/Raleway-Thin.ttf);
+}
+
+
+html, body{
+    font-family: Raleway-Regular;
+    background-repeat: repeat;
+    height: 100%;
+}
+
+h1{
+	letter-spacing: 3px;
+	font-size: 50px;
+	color: rgb(38, 38, 38);
+}
+
+h2{
+	letter-spacing: 3px;
+	font-size: 40px;
+	color: rgb(38, 38, 38);
+}
+
+h3{
+	font-size: 30px;
+	font-family: Raleway-Thin;
+	color: rgb(105, 105, 105);	
+}
+
+.half-width{
+	vertical-align: top;
+	width: 49%;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+#first-page{
+	height: 100%;
+}
+
+#store-button{
+	border: solid 1px #666;
+	border-radius: 4px;
+	padding: 12px 10px 9px 10px;
+	width: 220px;
+	line-height: 26px;
+	font-weight: normal;
+	color: rgb(82, 82, 82);
+	vertical-align: top;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.tiny-margin-top{
+	margin-top: 5px;
+}
+
+#title{
+	margin-top: 30%;
+	margin-bottom: 10px;
+}
+
+#left-wrapper{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#left-wrapper p{
+	margin-top: 20px;
+	color: rgb(82, 82, 82);
+}
+
+#app-icon{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 22px;
+	width: 22px;
+}
+
+#first-line{
+	padding: 50px;
+	background-color: rgb(247, 77, 75);
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	border-radius: 3px;
+}
+
+#second-line{
+	margin-top: 10px;
+	padding: 50px;
+	background-color: rgb(61, 195, 255);
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;	
+	border-radius: 3px;
+}
+
+.square{
+	width: 70px;
+	height: 70px;
+}
+
+#numbers{
+	color: white;
+	font-size: 60px;
+	vertical-align: top;
+}
+
+.larrow{
+	margin-left: 20px; 
+	margin-right: -20px;
+}
+
+.rarrow{
+	margin-right: 20px;
+	margin-left: -20px;
+}
+
+.inner-right-line{
+	width: 293px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#second-page{
+	height: 100%;
+	background-color: rgb(247, 247, 247);
+}
+
+#second-title{
+	text-align: center;
+	padding-top: 40px;
+}
+
+#sub-h2{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	font-family: Raleway-Thin;
+	color: rgb(105, 105, 105);	
+}
