@@ -23,6 +23,8 @@ html, body{
     font-family: Raleway-Regular;
     background-repeat: repeat;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -40,12 +42,21 @@ h2{
 h3{
 	font-size: 30px;
 	font-family: Raleway-Thin;
-	color: rgb(105, 105, 105);	
+	color: rgb(105, 105, 105);
+}
+
+h4{
+	font-size: 28px;
+	color: rgb(38, 38, 38);
 }
 
 .half-width{
 	vertical-align: top;
 	width: 49%;
+}
+
+.v-align-top{
+	vertical-align: top;
 }
 
 .inline-block{
@@ -56,8 +67,28 @@ h3{
 	margin: 0px;
 }
 
+.no-margin-top{
+	margin-top: 0px;
+}
+
+.no-padding-top{
+	padding-top: 0px;
+}
+
+.small-padding-bottom{
+	padding-bottom: 20px;
+}
+
+.small-padding-top{
+	padding-top: 20px;
+}
+
 #first-page{
-	height: 100%;
+	min-height: 100%;
+}
+
+.thirds{
+	width: 33%;
 }
 
 #store-button{
@@ -71,6 +102,21 @@ h3{
 	vertical-align: top;
 	font-size: 15px;
 	cursor: pointer;
+}
+
+#help-button{
+	border: solid 1px #DCDCDC;
+	border-radius: 4px;
+	padding: 12px 10px 9px 10px;
+	width: 140px;
+	line-height: 26px;
+	font-weight: normal;
+	color: #DCDCDC;
+	vertical-align: top;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 3%;
+	margin-top: 30px;
 }
 
 .text-center{
@@ -88,6 +134,22 @@ h3{
 #title{
 	margin-top: 30%;
 	margin-bottom: 10px;
+}
+
+.large-margin-bottom{
+	margin-bottom: 40px;
+}
+
+.medium-margin-bottom{
+	margin-bottom: 20px;
+}
+
+.large-padding{
+	padding: 30px;
+}
+
+.large-padding-left{
+	padding-left: 30px;	
 }
 
 #left-wrapper{
@@ -156,7 +218,7 @@ h3{
 }
 
 #second-page{
-	height: 100%;
+	min-height: 100%;
 	background-color: rgb(247, 247, 247);
 }
 
@@ -172,4 +234,38 @@ h3{
 	font-size: 15px;
 	font-family: Raleway-Thin;
 	color: rgb(105, 105, 105);	
+}
+
+.sub-4-p{
+	max-width: 300px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	font-family: Raleway-Thin;
+	color: rgb(105, 105, 105);
+}
+
+.pic-example{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#third-page{
+	background-color: rgb(36, 36, 56);
+}
+
+.close-to-white{
+	color : rgb(220, 220, 220) !important;
+}
+
+.close-to-white a{
+	color : rgb(220, 220, 220) !important;
+}
+
+#third-page p{
+	color: rgb(105, 105, 105);
+	max-width: 50%;
 }
