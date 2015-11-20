@@ -99,7 +99,7 @@ h4{
 	border: solid 1px #666;
 	border-radius: 4px;
 	padding: 12px 10px 9px 10px;
-	width: 220px;
+	width: 230px;
 	line-height: 26px;
 	font-weight: normal;
 	color: rgb(82, 82, 82);
@@ -312,4 +312,8 @@ h4{
 
 .iub_footer{
 	margin-bottom: 50px;
+}
+
+.low-opacity{
+	opacity: .5;
 }
